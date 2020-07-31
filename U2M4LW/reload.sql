@@ -1,0 +1,9 @@
+BEGIN
+pkg_etl_period_dw.load_t_period;
+pkg_etl_castomers_dw.load_t_castomers;
+pkg_etl_stores_dw.load_t_stores;
+pkg_etl_payment_types_dw.load_t_payment_types;
+--pkg_etl_products_dw.load_t_products;
+pkg_etl_promotions_dw.load_t_promotions;
+pkg_etl_transactions_dw.load_t_transactions;
+END;
